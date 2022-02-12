@@ -34,21 +34,11 @@ process is begin
     wait for 5 ns;
 end process;
 
---process is
---begin
---    inp_b<= "0001";
---    inp_a <= "1010";
---    inp_valid <= '1';
---    wait for 15 ns;
---    inp_valid <= '0';
---    wait;
---end process;
-
 process is
 variable var_a, var_b : integer range 0 to 15;
 begin
     for var_a in 1 to 15 loop
-        for var_b in 1 to var_a loop
+        for var_b in 1 to 15 loop
             inp_a <= std_logic_vector(conv_unsigned(var_a, 4));
             inp_b <= std_logic_vector(conv_unsigned(var_b, 4));
             inp_valid <= '1';

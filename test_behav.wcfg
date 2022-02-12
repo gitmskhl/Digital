@@ -10,15 +10,15 @@
       </db_ref>
    </db_ref_list>
    <zoom_setting>
-      <ZoomStartTime time="166666667fs"></ZoomStartTime>
-      <ZoomEndTime time="387146372fs"></ZoomEndTime>
-      <Cursor1Time time="1000000000fs"></Cursor1Time>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="243000001fs"></ZoomEndTime>
+      <Cursor1Time time="755000000fs"></Cursor1Time>
    </zoom_setting>
    <column_width_setting>
-      <NameColumnWidth column_width="116"></NameColumnWidth>
+      <NameColumnWidth column_width="112"></NameColumnWidth>
       <ValueColumnWidth column_width="58"></ValueColumnWidth>
    </column_width_setting>
-   <WVObjectSize size="19" />
+   <WVObjectSize size="16" />
    <wvobject fp_name="/test/rst" type="logic">
       <obj_property name="ElementShortName">rst</obj_property>
       <obj_property name="ObjectShortName">rst</obj_property>
@@ -82,17 +82,5 @@
    <wvobject fp_name="/test/DUT/outp_valid1" type="logic">
       <obj_property name="ElementShortName">outp_valid1</obj_property>
       <obj_property name="ObjectShortName">outp_valid1</obj_property>
-   </wvobject>
-   <wvobject fp_name="/test/DUT/sub_tmp" type="array">
-      <obj_property name="ElementShortName">sub_tmp[4:0]</obj_property>
-      <obj_property name="ObjectShortName">sub_tmp[4:0]</obj_property>
-   </wvobject>
-   <wvobject fp_name="/test/DUT/s1_tmp" type="array">
-      <obj_property name="ElementShortName">s1_tmp[4:0]</obj_property>
-      <obj_property name="ObjectShortName">s1_tmp[4:0]</obj_property>
-   </wvobject>
-   <wvobject fp_name="/test/DUT/s2_tmp" type="array">
-      <obj_property name="ElementShortName">s2_tmp[4:0]</obj_property>
-      <obj_property name="ObjectShortName">s2_tmp[4:0]</obj_property>
    </wvobject>
 </wave_config>
