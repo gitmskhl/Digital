@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="test_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="test" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="166666667fs"></ZoomStartTime>
+      <ZoomEndTime time="387146372fs"></ZoomEndTime>
+      <Cursor1Time time="1000000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="116"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="19" />
+   <wvobject fp_name="/test/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/inp_valid" type="logic">
+      <obj_property name="ElementShortName">inp_valid</obj_property>
+      <obj_property name="ObjectShortName">inp_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/inp_a" type="array">
+      <obj_property name="ElementShortName">inp_a[3:0]</obj_property>
+      <obj_property name="ObjectShortName">inp_a[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/inp_b" type="array">
+      <obj_property name="ElementShortName">inp_b[3:0]</obj_property>
+      <obj_property name="ObjectShortName">inp_b[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/outp_valid" type="logic">
+      <obj_property name="ElementShortName">outp_valid</obj_property>
+      <obj_property name="ObjectShortName">outp_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/outp_result" type="array">
+      <obj_property name="ElementShortName">outp_result[3:0]</obj_property>
+      <obj_property name="ObjectShortName">outp_result[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/DUT/a0" type="array">
+      <obj_property name="ElementShortName">a0[3:0]</obj_property>
+      <obj_property name="ObjectShortName">a0[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/DUT/b0" type="array">
+      <obj_property name="ElementShortName">b0[3:0]</obj_property>
+      <obj_property name="ObjectShortName">b0[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/DUT/D0" type="array">
+      <obj_property name="ElementShortName">D0[3:0]</obj_property>
+      <obj_property name="ObjectShortName">D0[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/DUT/sw0" type="logic">
+      <obj_property name="ElementShortName">sw0</obj_property>
+      <obj_property name="ObjectShortName">sw0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/DUT/a1" type="array">
+      <obj_property name="ElementShortName">a1[3:0]</obj_property>
+      <obj_property name="ObjectShortName">a1[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/DUT/b1" type="array">
+      <obj_property name="ElementShortName">b1[3:0]</obj_property>
+      <obj_property name="ObjectShortName">b1[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/DUT/D1" type="array">
+      <obj_property name="ElementShortName">D1[3:0]</obj_property>
+      <obj_property name="ObjectShortName">D1[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/DUT/sw1" type="logic">
+      <obj_property name="ElementShortName">sw1</obj_property>
+      <obj_property name="ObjectShortName">sw1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/DUT/outp_valid1" type="logic">
+      <obj_property name="ElementShortName">outp_valid1</obj_property>
+      <obj_property name="ObjectShortName">outp_valid1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/DUT/sub_tmp" type="array">
+      <obj_property name="ElementShortName">sub_tmp[4:0]</obj_property>
+      <obj_property name="ObjectShortName">sub_tmp[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/DUT/s1_tmp" type="array">
+      <obj_property name="ElementShortName">s1_tmp[4:0]</obj_property>
+      <obj_property name="ObjectShortName">s1_tmp[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/DUT/s2_tmp" type="array">
+      <obj_property name="ElementShortName">s2_tmp[4:0]</obj_property>
+      <obj_property name="ObjectShortName">s2_tmp[4:0]</obj_property>
+   </wvobject>
+</wave_config>
